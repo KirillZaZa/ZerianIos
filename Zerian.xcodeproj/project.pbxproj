@@ -1,0 +1,397 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		45BF662926DE515900074771 /* ZerianApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45BF662826DE515900074771 /* ZerianApp.swift */; };
+		45BF662B26DE515900074771 /* MessengerScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45BF662A26DE515900074771 /* MessengerScreen.swift */; };
+		45BF662D26DE515D00074771 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45BF662C26DE515D00074771 /* Assets.xcassets */; };
+		45BF664426DE808D00074771 /* CurrentEventTextComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45BF664326DE808D00074771 /* CurrentEventTextComponent.swift */; };
+		45BF664826DE80F100074771 /* SearchComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45BF664726DE80F100074771 /* SearchComponent.swift */; };
+		45BF664E26DE81E700074771 /* HeaderText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45BF664D26DE81E700074771 /* HeaderText.swift */; };
+		45BF665226DE821100074771 /* CircleImageComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45BF665126DE821100074771 /* CircleImageComponent.swift */; };
+		45BF665626DE836200074771 /* BackgroundHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45BF665526DE836200074771 /* BackgroundHelper.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		45BF662526DE515900074771 /* Zerian.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Zerian.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		45BF662826DE515900074771 /* ZerianApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZerianApp.swift; sourceTree = "<group>"; };
+		45BF662A26DE515900074771 /* MessengerScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessengerScreen.swift; sourceTree = "<group>"; };
+		45BF662C26DE515D00074771 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		45BF663126DE515D00074771 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45BF664326DE808D00074771 /* CurrentEventTextComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentEventTextComponent.swift; sourceTree = "<group>"; };
+		45BF664726DE80F100074771 /* SearchComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchComponent.swift; sourceTree = "<group>"; };
+		45BF664D26DE81E700074771 /* HeaderText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderText.swift; sourceTree = "<group>"; };
+		45BF665126DE821100074771 /* CircleImageComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImageComponent.swift; sourceTree = "<group>"; };
+		45BF665526DE836200074771 /* BackgroundHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundHelper.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		45BF662226DE515900074771 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		45BF661C26DE515900074771 = {
+			isa = PBXGroup;
+			children = (
+				45BF662726DE515900074771 /* Zerian */,
+				45BF662626DE515900074771 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		45BF662626DE515900074771 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				45BF662526DE515900074771 /* Zerian.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		45BF662726DE515900074771 /* Zerian */ = {
+			isa = PBXGroup;
+			children = (
+				45BF664026DE7FA400074771 /* ViewModels */,
+				45BF663F26DE7F9900074771 /* Models */,
+				45BF663C26DE7F1F00074771 /* Views */,
+				45BF662826DE515900074771 /* ZerianApp.swift */,
+				45BF662C26DE515D00074771 /* Assets.xcassets */,
+				45BF663126DE515D00074771 /* Info.plist */,
+			);
+			path = Zerian;
+			sourceTree = "<group>";
+		};
+		45BF663C26DE7F1F00074771 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				45BF665426DE832300074771 /* helpers */,
+				45BF663E26DE7F7E00074771 /* components */,
+				45BF663D26DE7F4000074771 /* screens */,
+				45BF662A26DE515900074771 /* MessengerScreen.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		45BF663D26DE7F4000074771 /* screens */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = screens;
+			sourceTree = "<group>";
+		};
+		45BF663E26DE7F7E00074771 /* components */ = {
+			isa = PBXGroup;
+			children = (
+				45BF664226DE801400074771 /* messengerComponents */,
+			);
+			path = components;
+			sourceTree = "<group>";
+		};
+		45BF663F26DE7F9900074771 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		45BF664026DE7FA400074771 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		45BF664226DE801400074771 /* messengerComponents */ = {
+			isa = PBXGroup;
+			children = (
+				45BF664326DE808D00074771 /* CurrentEventTextComponent.swift */,
+				45BF664726DE80F100074771 /* SearchComponent.swift */,
+				45BF664D26DE81E700074771 /* HeaderText.swift */,
+				45BF665126DE821100074771 /* CircleImageComponent.swift */,
+			);
+			path = messengerComponents;
+			sourceTree = "<group>";
+		};
+		45BF665426DE832300074771 /* helpers */ = {
+			isa = PBXGroup;
+			children = (
+				45BF665526DE836200074771 /* BackgroundHelper.swift */,
+			);
+			path = helpers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		45BF662426DE515900074771 /* Zerian */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45BF663426DE515D00074771 /* Build configuration list for PBXNativeTarget "Zerian" */;
+			buildPhases = (
+				45BF662126DE515900074771 /* Sources */,
+				45BF662226DE515900074771 /* Frameworks */,
+				45BF662326DE515900074771 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Zerian;
+			productName = Zerian;
+			productReference = 45BF662526DE515900074771 /* Zerian.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		45BF661D26DE515900074771 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					45BF662426DE515900074771 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 45BF662026DE515900074771 /* Build configuration list for PBXProject "Zerian" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 45BF661C26DE515900074771;
+			productRefGroup = 45BF662626DE515900074771 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				45BF662426DE515900074771 /* Zerian */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		45BF662326DE515900074771 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45BF662D26DE515D00074771 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		45BF662126DE515900074771 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45BF664826DE80F100074771 /* SearchComponent.swift in Sources */,
+				45BF665226DE821100074771 /* CircleImageComponent.swift in Sources */,
+				45BF664426DE808D00074771 /* CurrentEventTextComponent.swift in Sources */,
+				45BF662B26DE515900074771 /* MessengerScreen.swift in Sources */,
+				45BF664E26DE81E700074771 /* HeaderText.swift in Sources */,
+				45BF665626DE836200074771 /* BackgroundHelper.swift in Sources */,
+				45BF662926DE515900074771 /* ZerianApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		45BF663226DE515D00074771 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		45BF663326DE515D00074771 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		45BF663526DE515D00074771 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Zerian/Preview Content\"";
+				DEVELOPMENT_TEAM = 8CVC5WQS3B;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Zerian/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.conlage.Zerian;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		45BF663626DE515D00074771 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Zerian/Preview Content\"";
+				DEVELOPMENT_TEAM = 8CVC5WQS3B;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Zerian/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.conlage.Zerian;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		45BF662026DE515900074771 /* Build configuration list for PBXProject "Zerian" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45BF663226DE515D00074771 /* Debug */,
+				45BF663326DE515D00074771 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45BF663426DE515D00074771 /* Build configuration list for PBXNativeTarget "Zerian" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45BF663526DE515D00074771 /* Debug */,
+				45BF663626DE515D00074771 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 45BF661D26DE515900074771 /* Project object */;
+}
