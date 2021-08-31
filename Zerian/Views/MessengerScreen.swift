@@ -30,22 +30,16 @@ struct MessengerScreen: View {
                 .padding(.top, 32)
             
             
-            ScrollView(.horizontal, showsIndicators: false) {
-                HStack(spacing: 16) {
-                    ForEach(0 ..< 10) { index in
-                        CircleImageComponent()
-                            .padding(.leading, index == 0 ? 30 : 0)
-                            .padding(.trailing, index == 9 ? 30 : 0)
-                    }
-                }
-            }
-            .padding(.top, 16)
-            .padding(.trailing, -56)
-            .offset(x: -30)
+            UserSearchView()
+                .padding(.top, 16)
+                .padding(.trailing, -56)
+                .offset(x: -30)
         }
         .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .top)
         .padding(.horizontal, 30)
         .background(Color.accentColor.edgesIgnoringSafeArea(.all))
+        
+        
         
     }
 }

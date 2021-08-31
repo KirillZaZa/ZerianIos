@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		45613A1D26DEB50B00AE5764 /* UserSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45613A1C26DEB50B00AE5764 /* UserSearchView.swift */; };
 		45BF662926DE515900074771 /* ZerianApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45BF662826DE515900074771 /* ZerianApp.swift */; };
 		45BF662B26DE515900074771 /* MessengerScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45BF662A26DE515900074771 /* MessengerScreen.swift */; };
 		45BF662D26DE515D00074771 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45BF662C26DE515D00074771 /* Assets.xcassets */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		45613A1C26DEB50B00AE5764 /* UserSearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSearchView.swift; sourceTree = "<group>"; };
 		45BF662526DE515900074771 /* Zerian.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Zerian.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		45BF662826DE515900074771 /* ZerianApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZerianApp.swift; sourceTree = "<group>"; };
 		45BF662A26DE515900074771 /* MessengerScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessengerScreen.swift; sourceTree = "<group>"; };
@@ -91,7 +93,7 @@
 		45BF663E26DE7F7E00074771 /* components */ = {
 			isa = PBXGroup;
 			children = (
-				45BF664226DE801400074771 /* messengerComponents */,
+				45BF664226DE801400074771 /* messenger */,
 			);
 			path = components;
 			sourceTree = "<group>";
@@ -110,15 +112,16 @@
 			path = ViewModels;
 			sourceTree = "<group>";
 		};
-		45BF664226DE801400074771 /* messengerComponents */ = {
+		45BF664226DE801400074771 /* messenger */ = {
 			isa = PBXGroup;
 			children = (
 				45BF664326DE808D00074771 /* CurrentEventTextComponent.swift */,
 				45BF664726DE80F100074771 /* SearchComponent.swift */,
 				45BF664D26DE81E700074771 /* HeaderText.swift */,
 				45BF665126DE821100074771 /* CircleImageComponent.swift */,
+				45613A1C26DEB50B00AE5764 /* UserSearchView.swift */,
 			);
-			path = messengerComponents;
+			path = messenger;
 			sourceTree = "<group>";
 		};
 		45BF665426DE832300074771 /* helpers */ = {
@@ -204,6 +207,7 @@
 				45BF664E26DE81E700074771 /* HeaderText.swift in Sources */,
 				45BF665626DE836200074771 /* BackgroundHelper.swift in Sources */,
 				45BF662926DE515900074771 /* ZerianApp.swift in Sources */,
+				45613A1D26DEB50B00AE5764 /* UserSearchView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
