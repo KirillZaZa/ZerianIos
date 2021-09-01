@@ -11,7 +11,7 @@ struct DialogsWrapper: View {
     var body: some View {
         VStack{
             Header()
-            
+            DialogItem()
         }
         .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .topLeading)
         .padding(.leading, 32)
@@ -53,7 +53,7 @@ fileprivate struct UserImage: View {
         Image("test_photo")
             .resizable()
             .aspectRatio(contentMode: /*@START_MENU_TOKEN@*/.fill/*@END_MENU_TOKEN@*/)
-            .frame(width: 36, height: 36)
+            .frame(width: 48, height: 48)
             .clipShape(Circle())
             .overlay(Circle().stroke(Color.wrapperColor.opacity(0)))
             .padding(2)

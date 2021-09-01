@@ -43,11 +43,11 @@ fileprivate struct UserImage: View {
             Image("test_photo")
                 .resizable()
                 .aspectRatio(contentMode: .fill)
-                .frame(width: 48, height: 48)
+                .frame(width: 52, height: 52)
                 .clipShape(Circle())
-                .overlay(Circle().stroke(Color.accentColor.opacity(0), lineWidth: 2))
-                .padding(4)
-                .overlay(Circle().stroke(Color.yellow, lineWidth: 2))
+                .overlay(Circle().stroke(Color.accentColor.opacity(0)))
+                .padding(2)
+                .overlay(Circle().stroke(Color.yellow))
     }
 }
 
