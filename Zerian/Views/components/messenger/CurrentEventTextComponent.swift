@@ -13,7 +13,7 @@ struct CurrentEventTextComponent: View{
     
     var body: some View{
         Text("Мероприятие: \(self.textEvent)")
-            .font(.system(size: 18, weight: .medium))
+            .font(.system(size: 16, weight: .medium))
             .foregroundColor(.white)
     }
 }

@@ -15,7 +15,7 @@ struct SearchComponent: View {
             Image(systemName: "magnifyingglass")
             TextField("Поиск", text: self.$text)
         }
-        .padding(12)
+        .padding(8)
         .background(Color.white)
         .cornerRadius(32)
     }

@@ -16,27 +16,26 @@ struct MessengerScreen_Previews: PreviewProvider {
 
 struct MessengerScreen: View {
     
+    let horizontalPadding: CGFloat = 16
+    
     var body: some View {
-        VStack(alignment: .leading) {
+        VStack(alignment: .leading, spacing: 16) {
             HeaderText()
-                .padding(.top, 24)
-            
-            
+
             SearchComponent()
-                .padding(.top, 20)
-            
             
             CurrentEventTextComponent()
-                .padding(.top, 32)
             
+            UserScrollView(horizontalPadding: horizontalPadding)
+                .padding(.trailing, -horizontalPadding * 2)
+                .offset(x: -horizontalPadding)
             
-            UserSearchView()
-                .padding(.top, 16)
-                .padding(.trailing, -56)
-                .offset(x: -30)
+            DialogsWrapper()
+                .padding(.horizontal, -horizontalPadding)
         }
         .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .top)
-        .padding(.horizontal, 30)
+        .padding(.horizontal, horizontalPadding)
+        .padding(.top , 12)
         .background(Color.accentColor.edgesIgnoringSafeArea(.all))
         
         
