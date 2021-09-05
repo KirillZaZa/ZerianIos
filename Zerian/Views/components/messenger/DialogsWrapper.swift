@@ -8,16 +8,25 @@
 import SwiftUI
 
 struct DialogsWrapper: View {
+        
+    
     var body: some View {
-        VStack{
+        VStack(alignment: .leading, spacing: 0){
             Header()
-            DialogItem()
+                .padding(.bottom, 24)
+            ScrollView(.vertical, showsIndicators: false){
+                VStack(spacing: 20){
+                    ForEach(0..<20){_ in
+                        DialogItem()
+                    }
+                }
+            }
+            
         }
-        .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .topLeading)
-        .padding(.leading, 32)
+        .padding(.horizontal, 16)
         .padding(.top, 24)
         .background(Color.wrapperColor)
-        .cornerRadius(56, corners: [.topLeft])
+        .cornerRadius(24, corners: [.topLeft])
         .edgesIgnoringSafeArea(.all)
     }
 }
@@ -33,7 +42,7 @@ struct Header: View {
     
     var body: some View{
         Text("Все сообщения")
-            .font(.system(size: 16, weight: .medium))
+            .font(.system(size: 17, weight: .semibold))
             .foregroundColor(Color.textColor)
     }
 
@@ -42,8 +51,45 @@ struct Header: View {
 
 struct DialogItem: View{
     var body: some View{
-        HStack(alignment: .top, spacing: 4){
+        
+        HStack(alignment: .top){
             UserImage()
+            VStack {
+                //Имя и время
+                HStack(spacing: 8){
+                    Text("Виктор Лобанов")
+                        .font(.system(size: 16, weight: .bold))
+                        .foregroundColor(Color.titleColor)
+                        .lineLimit(1)
+                        .multilineTextAlignment(.leading)
+                        .padding(.trailing, 72)
+                    
+                    Spacer()
+                    
+                    Text("15:23")
+                        .font(.system(size: 14, weight: .regular))
+                        .foregroundColor(Color.textColor.opacity(0.5))
+                }
+                
+                //Сообщение и badge
+                HStack {
+                    Text("Здаров, ты где? Я за барной стойкой")
+                        .font(.system(size: 16, weight: .regular))
+                        .foregroundColor(Color.textColor)
+                        .lineLimit(1)
+                        .multilineTextAlignment(.leading)
+                        .padding(.trailing)
+                    
+                    Spacer()
+                    
+                    Text("5")
+                        .font(.system(size: 14, weight: .semibold))
+                        .padding(8)
+                        .background(Color.accentColor)
+                        .foregroundColor(Color.wrapperColor)
+                        .clipShape(Circle())
+                }
+            }
         }
     }
 }
@@ -52,7 +98,7 @@ fileprivate struct UserImage: View {
     var body: some View {
         Image("test_photo")
             .resizable()
-            .aspectRatio(contentMode: /*@START_MENU_TOKEN@*/.fill/*@END_MENU_TOKEN@*/)
+            .aspectRatio(contentMode: .fill)
             .frame(width: 48, height: 48)
             .clipShape(Circle())
             .overlay(Circle().stroke(Color.wrapperColor.opacity(0)))
@@ -60,7 +106,5 @@ fileprivate struct UserImage: View {
             .overlay(Circle().stroke(Color.accentColor))
     }
 }
-
-
 
 

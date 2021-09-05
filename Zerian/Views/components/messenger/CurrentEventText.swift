@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct CurrentEventTextComponent: View{
+struct CurrentEventText: View{
     
     var textEvent: String = "Крейзи бобры"
     
@@ -21,6 +21,7 @@ struct CurrentEventTextComponent: View{
 
 struct CurrentEventText_Previews: PreviewProvider {
     static var previews: some View {
-        CurrentEventTextComponent()
+        CurrentEventText()
     }
 }
+

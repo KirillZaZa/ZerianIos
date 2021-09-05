@@ -22,9 +22,9 @@ struct MessengerScreen: View {
         VStack(alignment: .leading, spacing: 16) {
             HeaderText()
 
-            SearchComponent()
+            SearchBar()
             
-            CurrentEventTextComponent()
+            CurrentEventText()
             
             UserScrollView(horizontalPadding: horizontalPadding)
                 .padding(.trailing, -horizontalPadding * 2)

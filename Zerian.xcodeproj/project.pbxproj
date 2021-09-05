@@ -14,10 +14,10 @@
 		45BF662926DE515900074771 /* ZerianApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45BF662826DE515900074771 /* ZerianApp.swift */; };
 		45BF662B26DE515900074771 /* Messenger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45BF662A26DE515900074771 /* Messenger.swift */; };
 		45BF662D26DE515D00074771 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45BF662C26DE515D00074771 /* Assets.xcassets */; };
-		45BF664426DE808D00074771 /* CurrentEventTextComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45BF664326DE808D00074771 /* CurrentEventTextComponent.swift */; };
-		45BF664826DE80F100074771 /* SearchComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45BF664726DE80F100074771 /* SearchComponent.swift */; };
+		45BF664426DE808D00074771 /* CurrentEventText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45BF664326DE808D00074771 /* CurrentEventText.swift */; };
+		45BF664826DE80F100074771 /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45BF664726DE80F100074771 /* SearchBar.swift */; };
 		45BF664E26DE81E700074771 /* HeaderText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45BF664D26DE81E700074771 /* HeaderText.swift */; };
-		45BF665226DE821100074771 /* CircleImageComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45BF665126DE821100074771 /* CircleImageComponent.swift */; };
+		45BF665226DE821100074771 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45BF665126DE821100074771 /* CircleImage.swift */; };
 		45BF665626DE836200074771 /* BackgroundHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45BF665526DE836200074771 /* BackgroundHelper.swift */; };
 /* End PBXBuildFile section */
 
@@ -31,10 +31,10 @@
 		45BF662A26DE515900074771 /* Messenger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Messenger.swift; sourceTree = "<group>"; };
 		45BF662C26DE515D00074771 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		45BF663126DE515D00074771 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		45BF664326DE808D00074771 /* CurrentEventTextComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentEventTextComponent.swift; sourceTree = "<group>"; };
-		45BF664726DE80F100074771 /* SearchComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchComponent.swift; sourceTree = "<group>"; };
+		45BF664326DE808D00074771 /* CurrentEventText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentEventText.swift; sourceTree = "<group>"; };
+		45BF664726DE80F100074771 /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
 		45BF664D26DE81E700074771 /* HeaderText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderText.swift; sourceTree = "<group>"; };
-		45BF665126DE821100074771 /* CircleImageComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImageComponent.swift; sourceTree = "<group>"; };
+		45BF665126DE821100074771 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 		45BF665526DE836200074771 /* BackgroundHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -121,10 +121,10 @@
 		45BF664226DE801400074771 /* messenger */ = {
 			isa = PBXGroup;
 			children = (
-				45BF664326DE808D00074771 /* CurrentEventTextComponent.swift */,
-				45BF664726DE80F100074771 /* SearchComponent.swift */,
+				45BF664326DE808D00074771 /* CurrentEventText.swift */,
+				45BF664726DE80F100074771 /* SearchBar.swift */,
 				45BF664D26DE81E700074771 /* HeaderText.swift */,
-				45BF665126DE821100074771 /* CircleImageComponent.swift */,
+				45BF665126DE821100074771 /* CircleImage.swift */,
 				45613A1C26DEB50B00AE5764 /* UserScrollView.swift */,
 				45A07B6726DF8E7B00389F18 /* DialogsWrapper.swift */,
 			);
@@ -210,11 +210,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				45A07B7026DF94B700389F18 /* RoundedCorners.swift in Sources */,
-				45BF664826DE80F100074771 /* SearchComponent.swift in Sources */,
+				45BF664826DE80F100074771 /* SearchBar.swift in Sources */,
 				45A07B6D26DF907C00389F18 /* Colors.swift in Sources */,
-				45BF665226DE821100074771 /* CircleImageComponent.swift in Sources */,
+				45BF665226DE821100074771 /* CircleImage.swift in Sources */,
 				45A07B6826DF8E7B00389F18 /* DialogsWrapper.swift in Sources */,
-				45BF664426DE808D00074771 /* CurrentEventTextComponent.swift in Sources */,
+				45BF664426DE808D00074771 /* CurrentEventText.swift in Sources */,
 				45BF662B26DE515900074771 /* Messenger.swift in Sources */,
 				45BF664E26DE81E700074771 /* HeaderText.swift in Sources */,
 				45BF665626DE836200074771 /* BackgroundHelper.swift in Sources */,

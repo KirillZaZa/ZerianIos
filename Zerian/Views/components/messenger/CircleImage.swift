@@ -14,7 +14,7 @@ struct CircleImageComponent_Previews: PreviewProvider {
     }
 }
 
-struct CircleImageComponent: View {
+struct CircleImage: View {
     
     let name: String
     

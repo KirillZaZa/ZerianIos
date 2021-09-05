@@ -12,4 +12,5 @@ import SwiftUI
 extension Color {
     static var wrapperColor: Color { Color("WrapperColor") }
     static var textColor: Color{Color("TextColor")}
+    static var titleColor: Color{Color("TitleColor")}
 }
