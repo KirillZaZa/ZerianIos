@@ -12,9 +12,11 @@ struct Wrapper: View {
         VStack(alignment: .leading){
             ScrollView(.vertical, showsIndicators: false){
                 VStack(alignment: .center){
+                    //Header
                     HStack(alignment: .center){
                         TextHeader()
                         EditingButton()
+                            .shadow(color: Color.textColor.opacity(0.1), radius: 10, x: 0.0, y: 2)
                             .padding(.leading, 8)
                     }.padding(.top, 24)
                     
@@ -22,8 +24,21 @@ struct Wrapper: View {
                         .padding(.top, 4)
                     
                     AddPhotoButton()
-                        .shadow(color: Color.black.opacity(0.1), radius: 10, x: 0.0, y: 2)
+                        .shadow(color: Color.textColor.opacity(0.1), radius: 10, x: 0.0, y: 2)
                         .padding(.top, 24)
+                    
+                    Menu()
+                        .padding(.top, 32)
+                    
+                    Interests()
+                        .padding(.top, 36)
+                        .padding(.leading, 24)
+                    
+                    About()
+                        .padding(.top, 24)
+                        .padding(.leading, 24)
+                        
+                    
                 }
             }.frame(maxWidth: .infinity, maxHeight: .infinity)
         }

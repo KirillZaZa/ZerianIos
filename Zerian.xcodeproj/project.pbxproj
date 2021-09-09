@@ -24,6 +24,9 @@
 		45BF664E26DE81E700074771 /* HeaderText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45BF664D26DE81E700074771 /* HeaderText.swift */; };
 		45BF665226DE821100074771 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45BF665126DE821100074771 /* CircleImage.swift */; };
 		45BF665626DE836200074771 /* BackgroundHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45BF665526DE836200074771 /* BackgroundHelper.swift */; };
+		45DD891626EA257E00C31418 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45DD891526EA257E00C31418 /* Menu.swift */; };
+		45DD891926EA349000C31418 /* Interests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45DD891826EA349000C31418 /* Interests.swift */; };
+		45DD891C26EA349C00C31418 /* About.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45DD891B26EA349C00C31418 /* About.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +49,9 @@
 		45BF664D26DE81E700074771 /* HeaderText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderText.swift; sourceTree = "<group>"; };
 		45BF665126DE821100074771 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 		45BF665526DE836200074771 /* BackgroundHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundHelper.swift; sourceTree = "<group>"; };
+		45DD891526EA257E00C31418 /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
+		45DD891826EA349000C31418 /* Interests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Interests.swift; sourceTree = "<group>"; };
+		45DD891B26EA349C00C31418 /* About.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = About.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +72,9 @@
 				453A0EE426E93D8000A57F0E /* Wrapper.swift */,
 				453A0EE726E96A5300A57F0E /* AddPhotoButton.swift */,
 				453A0EEA26E96CD900A57F0E /* EditingButton.swift */,
+				45DD891526EA257E00C31418 /* Menu.swift */,
+				45DD891826EA349000C31418 /* Interests.swift */,
+				45DD891B26EA349C00C31418 /* About.swift */,
 			);
 			path = profile;
 			sourceTree = "<group>";
@@ -245,9 +254,12 @@
 				45BF664E26DE81E700074771 /* HeaderText.swift in Sources */,
 				45BF665626DE836200074771 /* BackgroundHelper.swift in Sources */,
 				453A0EE526E93D8000A57F0E /* Wrapper.swift in Sources */,
+				45DD891626EA257E00C31418 /* Menu.swift in Sources */,
 				453A0EEB26E96CD900A57F0E /* EditingButton.swift in Sources */,
 				45BF662926DE515900074771 /* ZerianApp.swift in Sources */,
+				45DD891C26EA349C00C31418 /* About.swift in Sources */,
 				45613A1D26DEB50B00AE5764 /* UserScrollView.swift in Sources */,
+				45DD891926EA349000C31418 /* Interests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

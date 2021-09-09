@@ -63,8 +63,7 @@ struct UserName: View{
             .frame(width: 64)
             .multilineTextAlignment(.center)
             .lineLimit(1)
-//            .scaledToFit()
-//            .minimumScaleFactor(0.9)
+
     }
     
 }
