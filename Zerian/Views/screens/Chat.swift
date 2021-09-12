@@ -19,8 +19,9 @@ struct Chat: View {
                 .padding(.top, 40)
             
             Bottombar()
-                .offset(y: -30.0)
+                .offset(y: -30)
                 .background(Color.white)
+                .shadow(color: Color.black.opacity(0.1), radius: 10, x: 0.0, y: -15)
             
             
         }

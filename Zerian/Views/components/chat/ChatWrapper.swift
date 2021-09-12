@@ -29,6 +29,7 @@ struct ChatWrapper: View {
                         .padding(.top, 32)
                     InviteMessage()
                         .padding(.horizontal, 16)
+                        .padding(.vertical, 32)
                 }
                 .frame(maxWidth: .infinity, maxHeight: .infinity)
             }

@@ -39,14 +39,16 @@ struct InviteMessage: View {
     
     var body: some View {
         VStack(alignment: messageAlignment.horizontal){
-            VStack(alignment: .leading,spacing: 4){
+            VStack(alignment: .leading, spacing: 4){
                 
                 // Invite message
-                Text("\(invite)")
+                Text("\(self.invite)")
                     .font(.system(size: 16, weight: .medium))
                     .foregroundColor(Color.white)
+                    .multilineTextAlignment(.leading)
                     .padding(.vertical, 12)
                     .padding(.horizontal, 16)
+                    .frame(maxWidth: 256, alignment: .leading)
                 
                 //Users who goes
                 HStack(alignment: .center, spacing: -10){
