@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct Wrapper: View {
+struct ProfileWrapper: View {
     var body: some View {
         VStack(alignment: .leading){
             ScrollView(.vertical, showsIndicators: false){
@@ -67,7 +67,7 @@ private struct Subtitle: View{
 }
 
 
-struct Wrapper_Previews: PreviewProvider {
+struct ProfileWrapper_Previews: PreviewProvider {
     static var previews: some View {
         Profile()
     }

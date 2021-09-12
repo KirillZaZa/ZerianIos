@@ -14,7 +14,7 @@ struct Profile: View {
     var body: some View {
         VStack(alignment: .leading){
                 PhotoHeader()
-                Wrapper()
+                ProfileWrapper()
                     .offset(y: -Ypadding)
         }
         .frame(maxWidth: .infinity , maxHeight: .infinity, alignment: .top)
