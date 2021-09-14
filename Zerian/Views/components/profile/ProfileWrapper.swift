@@ -44,7 +44,7 @@ struct ProfileWrapper: View {
         }
         .frame(maxWidth: .infinity)
         .background(Color.wrapperColor)
-        .cornerRadius(24, corners: [.topLeft])
+        .cornerRadius(48, corners: [.topLeft])
         .edgesIgnoringSafeArea(.bottom)
     }
 }

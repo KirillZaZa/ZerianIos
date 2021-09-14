@@ -35,7 +35,7 @@ struct ChatWrapper: View {
             }
             .frame(maxWidth: .infinity, maxHeight: .infinity)
             .background(Color.wrapperColor)
-            .cornerRadius(24, corners: [.topLeft])
+            .cornerRadius(48, corners: [.topLeft])
 
             
             UserImageTop()

@@ -47,7 +47,7 @@ struct MenuItem: View {
             }
             Text(name)
                 .font(.system(size: 14, weight: .bold))
-                .foregroundColor(.titleColor)
+                .foregroundColor(Color.accentColor)
             
         }
     }

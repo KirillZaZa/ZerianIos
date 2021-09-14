@@ -8,12 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		45103E0F26EE54460060C3E8 /* InviteMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45103E0E26EE54460060C3E8 /* InviteMessage.swift */; };
+		4531600E26F10B5F00C6C1AE /* InviteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4531600D26F10B5F00C6C1AE /* InviteButton.swift */; };
+		4531601126F10BB800C6C1AE /* ManageFriendButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4531601026F10BB800C6C1AE /* ManageFriendButton.swift */; };
+		4531601426F10BC600C6C1AE /* AddFriendButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4531601326F10BC600C6C1AE /* AddFriendButton.swift */; };
 		453A0EDC26E9278200A57F0E /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 453A0EDB26E9278200A57F0E /* Profile.swift */; };
 		453A0EE026E9287B00A57F0E /* PhotoHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 453A0EDF26E9287B00A57F0E /* PhotoHeader.swift */; };
 		453A0EE526E93D8000A57F0E /* ProfileWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 453A0EE426E93D8000A57F0E /* ProfileWrapper.swift */; };
 		453A0EE826E96A5400A57F0E /* AddPhotoButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 453A0EE726E96A5300A57F0E /* AddPhotoButton.swift */; };
 		453A0EEB26E96CD900A57F0E /* EditingButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 453A0EEA26E96CD900A57F0E /* EditingButton.swift */; };
 		45613A1D26DEB50B00AE5764 /* UserScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45613A1C26DEB50B00AE5764 /* UserScrollView.swift */; };
+		4599D7CE26F0B0B100FF947B /* VisitProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4599D7CD26F0B0B100FF947B /* VisitProfile.swift */; };
+		4599D7D326F0B44F00FF947B /* VisitProfileToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4599D7D226F0B44F00FF947B /* VisitProfileToolbar.swift */; };
+		4599D7D626F0BA4B00FF947B /* UserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4599D7D526F0BA4B00FF947B /* UserInfo.swift */; };
+		4599D7D926F0EBAB00FF947B /* VisitProfileWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4599D7D826F0EBAB00FF947B /* VisitProfileWrapper.swift */; };
+		4599D7DC26F0F95100FF947B /* VisitMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4599D7DB26F0F95000FF947B /* VisitMenu.swift */; };
 		45A07B6826DF8E7B00389F18 /* DialogsWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A07B6726DF8E7B00389F18 /* DialogsWrapper.swift */; };
 		45A07B6D26DF907C00389F18 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A07B6C26DF907C00389F18 /* Colors.swift */; };
 		45A07B7026DF94B700389F18 /* RoundedCorners.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A07B6F26DF94B700389F18 /* RoundedCorners.swift */; };
@@ -26,7 +34,7 @@
 		45BF665226DE821100074771 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45BF665126DE821100074771 /* CircleImage.swift */; };
 		45BF665626DE836200074771 /* BackgroundHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45BF665526DE836200074771 /* BackgroundHelper.swift */; };
 		45D7DA8026EE208B00802CF6 /* Chat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45D7DA7F26EE208B00802CF6 /* Chat.swift */; };
-		45D7DA8526EE211800802CF6 /* Toolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45D7DA8426EE211800802CF6 /* Toolbar.swift */; };
+		45D7DA8526EE211800802CF6 /* ChatToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45D7DA8426EE211800802CF6 /* ChatToolbar.swift */; };
 		45D7DA8926EE317F00802CF6 /* ChatWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45D7DA8826EE317F00802CF6 /* ChatWrapper.swift */; };
 		45D7DA8C26EE31B900802CF6 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45D7DA8B26EE31B900802CF6 /* Message.swift */; };
 		45D7DA8F26EE322900802CF6 /* Bottombar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45D7DA8E26EE322900802CF6 /* Bottombar.swift */; };
@@ -37,12 +45,20 @@
 
 /* Begin PBXFileReference section */
 		45103E0E26EE54460060C3E8 /* InviteMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InviteMessage.swift; sourceTree = "<group>"; };
+		4531600D26F10B5F00C6C1AE /* InviteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InviteButton.swift; sourceTree = "<group>"; };
+		4531601026F10BB800C6C1AE /* ManageFriendButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManageFriendButton.swift; sourceTree = "<group>"; };
+		4531601326F10BC600C6C1AE /* AddFriendButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddFriendButton.swift; sourceTree = "<group>"; };
 		453A0EDB26E9278200A57F0E /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
 		453A0EDF26E9287B00A57F0E /* PhotoHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoHeader.swift; sourceTree = "<group>"; };
 		453A0EE426E93D8000A57F0E /* ProfileWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileWrapper.swift; sourceTree = "<group>"; };
 		453A0EE726E96A5300A57F0E /* AddPhotoButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPhotoButton.swift; sourceTree = "<group>"; };
 		453A0EEA26E96CD900A57F0E /* EditingButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditingButton.swift; sourceTree = "<group>"; };
 		45613A1C26DEB50B00AE5764 /* UserScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserScrollView.swift; sourceTree = "<group>"; };
+		4599D7CD26F0B0B100FF947B /* VisitProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisitProfile.swift; sourceTree = "<group>"; };
+		4599D7D226F0B44F00FF947B /* VisitProfileToolbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisitProfileToolbar.swift; sourceTree = "<group>"; };
+		4599D7D526F0BA4B00FF947B /* UserInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfo.swift; sourceTree = "<group>"; };
+		4599D7D826F0EBAB00FF947B /* VisitProfileWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisitProfileWrapper.swift; sourceTree = "<group>"; };
+		4599D7DB26F0F95000FF947B /* VisitMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisitMenu.swift; sourceTree = "<group>"; };
 		45A07B6726DF8E7B00389F18 /* DialogsWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DialogsWrapper.swift; sourceTree = "<group>"; };
 		45A07B6C26DF907C00389F18 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 		45A07B6F26DF94B700389F18 /* RoundedCorners.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedCorners.swift; sourceTree = "<group>"; };
@@ -57,7 +73,7 @@
 		45BF665126DE821100074771 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 		45BF665526DE836200074771 /* BackgroundHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundHelper.swift; sourceTree = "<group>"; };
 		45D7DA7F26EE208B00802CF6 /* Chat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chat.swift; sourceTree = "<group>"; };
-		45D7DA8426EE211800802CF6 /* Toolbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Toolbar.swift; sourceTree = "<group>"; };
+		45D7DA8426EE211800802CF6 /* ChatToolbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatToolbar.swift; sourceTree = "<group>"; };
 		45D7DA8826EE317F00802CF6 /* ChatWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatWrapper.swift; sourceTree = "<group>"; };
 		45D7DA8B26EE31B900802CF6 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
 		45D7DA8E26EE322900802CF6 /* Bottombar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bottombar.swift; sourceTree = "<group>"; };
@@ -89,6 +105,20 @@
 				45DD891B26EA349C00C31418 /* About.swift */,
 			);
 			path = profile;
+			sourceTree = "<group>";
+		};
+		4599D7D026F0B41700FF947B /* visitprofile */ = {
+			isa = PBXGroup;
+			children = (
+				4599D7D226F0B44F00FF947B /* VisitProfileToolbar.swift */,
+				4599D7D526F0BA4B00FF947B /* UserInfo.swift */,
+				4599D7D826F0EBAB00FF947B /* VisitProfileWrapper.swift */,
+				4599D7DB26F0F95000FF947B /* VisitMenu.swift */,
+				4531600D26F10B5F00C6C1AE /* InviteButton.swift */,
+				4531601026F10BB800C6C1AE /* ManageFriendButton.swift */,
+				4531601326F10BC600C6C1AE /* AddFriendButton.swift */,
+			);
+			path = visitprofile;
 			sourceTree = "<group>";
 		};
 		45BF661C26DE515900074771 = {
@@ -136,6 +166,7 @@
 				45BF662A26DE515900074771 /* Messenger.swift */,
 				453A0EDB26E9278200A57F0E /* Profile.swift */,
 				45D7DA7F26EE208B00802CF6 /* Chat.swift */,
+				4599D7CD26F0B0B100FF947B /* VisitProfile.swift */,
 			);
 			path = screens;
 			sourceTree = "<group>";
@@ -143,6 +174,7 @@
 		45BF663E26DE7F7E00074771 /* components */ = {
 			isa = PBXGroup;
 			children = (
+				4599D7D026F0B41700FF947B /* visitprofile */,
 				45D7DA8326EE20F800802CF6 /* chat */,
 				453A0EDA26E9276600A57F0E /* profile */,
 				45BF664226DE801400074771 /* messenger */,
@@ -190,7 +222,7 @@
 		45D7DA8326EE20F800802CF6 /* chat */ = {
 			isa = PBXGroup;
 			children = (
-				45D7DA8426EE211800802CF6 /* Toolbar.swift */,
+				45D7DA8426EE211800802CF6 /* ChatToolbar.swift */,
 				45D7DA8826EE317F00802CF6 /* ChatWrapper.swift */,
 				45D7DA8B26EE31B900802CF6 /* Message.swift */,
 				45D7DA8E26EE322900802CF6 /* Bottombar.swift */,
@@ -267,17 +299,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				45D7DA8526EE211800802CF6 /* Toolbar.swift in Sources */,
+				45D7DA8526EE211800802CF6 /* ChatToolbar.swift in Sources */,
 				45A07B7026DF94B700389F18 /* RoundedCorners.swift in Sources */,
 				453A0EE826E96A5400A57F0E /* AddPhotoButton.swift in Sources */,
 				453A0EDC26E9278200A57F0E /* Profile.swift in Sources */,
 				45BF664826DE80F100074771 /* SearchBar.swift in Sources */,
 				45A07B6D26DF907C00389F18 /* Colors.swift in Sources */,
+				4599D7D326F0B44F00FF947B /* VisitProfileToolbar.swift in Sources */,
 				45BF665226DE821100074771 /* CircleImage.swift in Sources */,
+				4599D7CE26F0B0B100FF947B /* VisitProfile.swift in Sources */,
+				4599D7D926F0EBAB00FF947B /* VisitProfileWrapper.swift in Sources */,
 				453A0EE026E9287B00A57F0E /* PhotoHeader.swift in Sources */,
+				4531600E26F10B5F00C6C1AE /* InviteButton.swift in Sources */,
 				45A07B6826DF8E7B00389F18 /* DialogsWrapper.swift in Sources */,
 				45BF664426DE808D00074771 /* CurrentEventText.swift in Sources */,
+				4599D7D626F0BA4B00FF947B /* UserInfo.swift in Sources */,
 				45BF662B26DE515900074771 /* Messenger.swift in Sources */,
+				4531601126F10BB800C6C1AE /* ManageFriendButton.swift in Sources */,
 				45BF664E26DE81E700074771 /* HeaderText.swift in Sources */,
 				45BF665626DE836200074771 /* BackgroundHelper.swift in Sources */,
 				453A0EE526E93D8000A57F0E /* ProfileWrapper.swift in Sources */,
@@ -285,6 +323,8 @@
 				45DD891626EA257E00C31418 /* Menu.swift in Sources */,
 				453A0EEB26E96CD900A57F0E /* EditingButton.swift in Sources */,
 				45D7DA8C26EE31B900802CF6 /* Message.swift in Sources */,
+				4531601426F10BC600C6C1AE /* AddFriendButton.swift in Sources */,
+				4599D7DC26F0F95100FF947B /* VisitMenu.swift in Sources */,
 				45BF662926DE515900074771 /* ZerianApp.swift in Sources */,
 				45103E0F26EE54460060C3E8 /* InviteMessage.swift in Sources */,
 				45DD891C26EA349C00C31418 /* About.swift in Sources */,

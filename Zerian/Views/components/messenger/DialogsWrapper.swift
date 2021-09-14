@@ -14,6 +14,7 @@ struct DialogsWrapper: View {
         VStack(alignment: .leading, spacing: 0){
             Header()
                 .padding(.bottom, 24)
+                .padding(.leading, 8)
             ScrollView(.vertical, showsIndicators: false){
                 VStack(spacing: 20){
                     ForEach(0..<20){_ in
@@ -26,7 +27,7 @@ struct DialogsWrapper: View {
         .padding(.horizontal, 16)
         .padding(.top, 24)
         .background(Color.wrapperColor)
-        .cornerRadius(24, corners: [.topLeft])
+        .cornerRadius(48, corners: [.topLeft])
         .edgesIgnoringSafeArea(.all)
     }
 }
@@ -43,7 +44,7 @@ struct Header: View {
     var body: some View{
         Text("Все сообщения")
             .font(.system(size: 17, weight: .semibold))
-            .foregroundColor(Color.textColor)
+            .foregroundColor(Color.accentColor)
     }
 
 }

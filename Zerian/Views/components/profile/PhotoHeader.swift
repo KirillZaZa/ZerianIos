@@ -15,8 +15,9 @@ struct PhotoHeader: View {
         ZStack(alignment: .topTrailing){                            Image("test_photo")
                 .resizable()
                 .scaledToFill()
-                .frame(maxWidth: .infinity, maxHeight: 200)
+                .frame(maxWidth: .infinity, maxHeight: 220)
                 .clipped()
+                .offset(y: 24.0)
             
 
             Settings()
