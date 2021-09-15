@@ -29,8 +29,7 @@ private struct StyleManageFriendButton: ButtonStyle{
         .cornerRadius(16)
         .scaleEffect(configuration.isPressed ? 1.2 : 1)
         .animation(.easeOut(duration: 0.2), value: configuration.isPressed)
-        .padding(.trailing, 24)
-        .padding(.leading, 24)
+    
         .shadow(color: Color.black.opacity(0.1), radius: 8, x: 0.0, y: 8)
         
     }

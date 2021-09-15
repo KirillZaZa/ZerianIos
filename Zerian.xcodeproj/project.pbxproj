@@ -17,6 +17,7 @@
 		453A0EE826E96A5400A57F0E /* AddPhotoButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 453A0EE726E96A5300A57F0E /* AddPhotoButton.swift */; };
 		453A0EEB26E96CD900A57F0E /* EditingButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 453A0EEA26E96CD900A57F0E /* EditingButton.swift */; };
 		45613A1D26DEB50B00AE5764 /* UserScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45613A1C26DEB50B00AE5764 /* UserScrollView.swift */; };
+		4566B34E26F2141F001BC059 /* CurrentEventsFriend.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4566B34D26F2141F001BC059 /* CurrentEventsFriend.swift */; };
 		4599D7CE26F0B0B100FF947B /* VisitProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4599D7CD26F0B0B100FF947B /* VisitProfile.swift */; };
 		4599D7D326F0B44F00FF947B /* VisitProfileToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4599D7D226F0B44F00FF947B /* VisitProfileToolbar.swift */; };
 		4599D7D626F0BA4B00FF947B /* UserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4599D7D526F0BA4B00FF947B /* UserInfo.swift */; };
@@ -54,6 +55,7 @@
 		453A0EE726E96A5300A57F0E /* AddPhotoButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPhotoButton.swift; sourceTree = "<group>"; };
 		453A0EEA26E96CD900A57F0E /* EditingButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditingButton.swift; sourceTree = "<group>"; };
 		45613A1C26DEB50B00AE5764 /* UserScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserScrollView.swift; sourceTree = "<group>"; };
+		4566B34D26F2141F001BC059 /* CurrentEventsFriend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentEventsFriend.swift; sourceTree = "<group>"; };
 		4599D7CD26F0B0B100FF947B /* VisitProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisitProfile.swift; sourceTree = "<group>"; };
 		4599D7D226F0B44F00FF947B /* VisitProfileToolbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisitProfileToolbar.swift; sourceTree = "<group>"; };
 		4599D7D526F0BA4B00FF947B /* UserInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfo.swift; sourceTree = "<group>"; };
@@ -117,6 +119,7 @@
 				4531600D26F10B5F00C6C1AE /* InviteButton.swift */,
 				4531601026F10BB800C6C1AE /* ManageFriendButton.swift */,
 				4531601326F10BC600C6C1AE /* AddFriendButton.swift */,
+				4566B34D26F2141F001BC059 /* CurrentEventsFriend.swift */,
 			);
 			path = visitprofile;
 			sourceTree = "<group>";
@@ -317,6 +320,7 @@
 				45BF662B26DE515900074771 /* Messenger.swift in Sources */,
 				4531601126F10BB800C6C1AE /* ManageFriendButton.swift in Sources */,
 				45BF664E26DE81E700074771 /* HeaderText.swift in Sources */,
+				4566B34E26F2141F001BC059 /* CurrentEventsFriend.swift in Sources */,
 				45BF665626DE836200074771 /* BackgroundHelper.swift in Sources */,
 				453A0EE526E93D8000A57F0E /* ProfileWrapper.swift in Sources */,
 				45D7DA8026EE208B00802CF6 /* Chat.swift in Sources */,

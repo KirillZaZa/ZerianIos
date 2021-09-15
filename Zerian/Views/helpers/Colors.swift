@@ -18,4 +18,5 @@ extension Color {
     static var greenColor: Color{Color("GreenColor")}
     static var yellowColor: Color{Color("YellowColor")}
     static var orangeColor: Color{Color("OrangeColor")}
+    static var lightBlueColor: Color{Color("LightBlueColor")}
 }
