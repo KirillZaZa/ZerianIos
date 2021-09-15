@@ -16,6 +16,7 @@ struct VisitProfileWrapper: View {
             ScrollView(.vertical, showsIndicators: false){
                 
                 VisitMenu()
+                    .padding(.horizontal, 12)
                 
                 //Interacting with user
                 if isFriend{
@@ -51,6 +52,7 @@ struct VisitProfileWrapper: View {
 
             }
             .frame(maxWidth: .infinity, maxHeight: .infinity)
+            .padding(.top, 24)
         }
         .frame(maxWidth: .infinity, maxHeight: .infinity)
         .background(Color.wrapperColor)

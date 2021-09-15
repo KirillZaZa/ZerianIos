@@ -15,17 +15,16 @@ struct VisitMenu: View {
     let menuNames = ["Чат","Друзья","События"]
     
     var body: some View {
-        HStack(alignment: .center, spacing: 20){
+        HStack(alignment: .center, spacing: 32){
             VisitItem(name: menuNames[0], imgName: "heart")
             VisitItem(name: menuNames[1],
                      imgName: "people")
             VisitItem(name: menuNames[2], imgName: "star")
         }
+        .frame(maxWidth: .infinity, alignment: .center)
         .padding(.vertical, 24)
         .background(Color.white)
         .cornerRadius(32)
-        .padding(.top, 32)
-        .frame(maxWidth: .infinity)
         .shadow(color: Color.black.opacity(0.1), radius: 15, x: 0.0, y: 10.0)
         
         
@@ -58,7 +57,7 @@ struct VisitItem: View {
             Text(name)
                 .font(.system(size: 14, weight: .bold))
                 .foregroundColor(Color.accentColor)
-                .frame(width: 100)
+                .frame(width: 72)
             
         }
     }
